@@ -85,10 +85,16 @@ export default function Menu() {
               </ul>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" href="/blog-home">Blog</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" href="/faq">FAQ</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/about">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/account">Account</Link>
             </li>
           </ul>
         </div>
