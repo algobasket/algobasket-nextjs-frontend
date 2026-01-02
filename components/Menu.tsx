@@ -29,20 +29,29 @@ export default function Menu() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                id="navbarDropdownPortfolio"
+                id="navbarDropdownProducts"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Portfolio
+                Products
               </a>
-              <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+              <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProducts">
                 <li>
-                  <Link className="dropdown-item" href="/portfolio-overview">Portfolio Overview</Link>
+                  <Link className="dropdown-item" href="/open-source">Open Source Products</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/portfolio-item">Portfolio Item</Link>
+                  <Link className="dropdown-item" href="/products/ai-tools">AI Tools & Scripts</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/products/crypto">Crypto Products</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/products/saas">SAAS Products</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/products/all">All Products</Link>
                 </li>
               </ul>
             </li>
