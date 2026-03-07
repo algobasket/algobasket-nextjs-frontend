@@ -4,6 +4,12 @@ const nextConfig = {
   images: {
     domains: ['dummyimage.com'],
   },
+  async redirects() {
+    return [
+      { source: '/premium', destination: '/markets', permanent: true },
+      { source: '/blog-home', destination: '/blog', permanent: true },
+    ]
+  },
 }
 
 module.exports = nextConfig

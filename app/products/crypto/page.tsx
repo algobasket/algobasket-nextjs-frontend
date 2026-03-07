@@ -19,13 +19,16 @@ export default function CryptoProducts() {
         <div className="row gx-5">
           <div className="col-lg-4 mb-5">
             <div className="card h-100 shadow border-0">
-              <Image
-                className="card-img-top"
-                src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
-                alt="Crypto Tool"
-                width={400}
-                height={250}
-              />
+              <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                <Image
+                  src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
+                  alt="Crypto Tool"
+                  width={400}
+                  height={400}
+                  className="w-100 h-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
               <div className="card-body p-4">
                 <div className="badge bg-success bg-gradient rounded-pill mb-2">Crypto</div>
                 <Link className="text-decoration-none link-dark stretched-link" href="#">
@@ -56,13 +59,16 @@ export default function CryptoProducts() {
           </div>
           <div className="col-lg-4 mb-5">
             <div className="card h-100 shadow border-0">
-              <Image
-                className="card-img-top"
-                src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
-                alt="Blockchain"
-                width={400}
-                height={250}
-              />
+              <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                <Image
+                  src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
+                  alt="Blockchain"
+                  width={400}
+                  height={400}
+                  className="w-100 h-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
               <div className="card-body p-4">
                 <div className="badge bg-success bg-gradient rounded-pill mb-2">Blockchain</div>
                 <Link className="text-decoration-none link-dark stretched-link" href="#">
@@ -93,13 +99,16 @@ export default function CryptoProducts() {
           </div>
           <div className="col-lg-4 mb-5">
             <div className="card h-100 shadow border-0">
-              <Image
-                className="card-img-top"
-                src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
-                alt="NFT"
-                width={400}
-                height={250}
-              />
+              <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                <Image
+                  src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
+                  alt="NFT"
+                  width={400}
+                  height={400}
+                  className="w-100 h-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
               <div className="card-body p-4">
                 <div className="badge bg-success bg-gradient rounded-pill mb-2">NFT</div>
                 <Link className="text-decoration-none link-dark stretched-link" href="#">

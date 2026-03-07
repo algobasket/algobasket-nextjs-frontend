@@ -56,7 +56,7 @@ export default function Menu() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/premium">Premium Projects</Link>
+              <Link className="nav-link" href="/markets">Markets</Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -71,27 +71,21 @@ export default function Menu() {
               </a>
               <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                 <li>
-                  <Link className="dropdown-item" href="/blog-home">New Releases & Fixes</Link>
+                  <Link className="dropdown-item" href="/blog">New Releases & Fixes</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/blog-post">Open Source Updates</Link>
+                  <Link className="dropdown-item" href="/blog/open-source-updates">Open Source Updates</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/blog-post">Premium Updates</Link>
+                  <Link className="dropdown-item" href="/blog/premium-updates">Premium Updates</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/blog-post">Community Issues</Link>
+                  <Link className="dropdown-item" href="/blog/community-issues">Community Issues</Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/blog-home">Blog</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/faq">FAQ</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/about">About</Link>
+              <Link className="nav-link" href="/blog">Blog</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/account">Account</Link>

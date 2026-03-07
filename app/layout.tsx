@@ -7,6 +7,7 @@ import Script from 'next/script'
 import Menu from '@/components/Menu'
 import Footer from '@/components/Footer'
 import Chat from '@/components/Chat'
+import ComingSoonGuard from '@/components/ComingSoonGuard'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,12 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} d-flex flex-column h-100`}>
-        <Menu />
-        <main className="flex-shrink-0">
-          {children}
-        </main>
-        <Chat />
-        <Footer />
+        <ComingSoonGuard>
+          <Menu />
+          <main className="flex-shrink-0">
+            {children}
+          </main>
+          <Chat />
+          <Footer />
+        </ComingSoonGuard>
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"

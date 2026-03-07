@@ -23,13 +23,16 @@ export default function AllProducts() {
           <div className="row gx-5">
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
-                  alt="AlgoSeek CRM"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
+                    alt="AlgoSeek CRM"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-primary bg-gradient rounded-pill mb-2">Free</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/open-source">
@@ -60,13 +63,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
-                  alt="No-Code API Generator"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
+                    alt="No-Code API Generator"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-primary bg-gradient rounded-pill mb-2">Free</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/open-source">
@@ -98,13 +104,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
-                  alt="Real-Time Collaboration Suite"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
+                    alt="Real-Time Collaboration Suite"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-primary bg-gradient rounded-pill mb-2">Free</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/open-source">
@@ -143,13 +152,16 @@ export default function AllProducts() {
           <div className="row gx-5">
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
-                  alt="AI Content Generator"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
+                    alt="AI Content Generator"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-info bg-gradient rounded-pill mb-2">AI Tool</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/ai-tools">
@@ -180,13 +192,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
-                  alt="Automation Scripts"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
+                    alt="Automation Scripts"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-info bg-gradient rounded-pill mb-2">Script</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/ai-tools">
@@ -217,13 +232,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
-                  alt="Code Assistant AI"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
+                    alt="Code Assistant AI"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-info bg-gradient rounded-pill mb-2">AI Assistant</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/ai-tools">
@@ -261,13 +279,16 @@ export default function AllProducts() {
           <div className="row gx-5">
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
-                  alt="Crypto Portfolio Tracker"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
+                    alt="Crypto Portfolio Tracker"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-success bg-gradient rounded-pill mb-2">Crypto</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/crypto">
@@ -298,13 +319,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
-                  alt="DeFi Analytics Platform"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
+                    alt="DeFi Analytics Platform"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-success bg-gradient rounded-pill mb-2">Blockchain</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/crypto">
@@ -335,13 +359,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
-                  alt="NFT Marketplace Tools"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
+                    alt="NFT Marketplace Tools"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-success bg-gradient rounded-pill mb-2">NFT</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/crypto">
@@ -379,13 +406,16 @@ export default function AllProducts() {
           <div className="row gx-5">
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
-                  alt="Project Management Suite"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_7d292370-0d52-48b9-bd58-125fb4ebea66.jpg"
+                    alt="Project Management Suite"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-warning bg-gradient rounded-pill mb-2">SAAS</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/saas">
@@ -416,13 +446,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
-                  alt="Cloud Analytics Dashboard"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_ac27c117-f4ce-4fe1-b2fd-d55b3c7f790f.jpg"
+                    alt="Cloud Analytics Dashboard"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-warning bg-gradient rounded-pill mb-2">SAAS</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/saas">
@@ -453,13 +486,16 @@ export default function AllProducts() {
             </div>
             <div className="col-lg-4 mb-5">
               <div className="card h-100 shadow border-0">
-                <Image
-                  className="card-img-top"
-                  src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
-                  alt="Customer Support Platform"
-                  width={400}
-                  height={250}
-                />
+                <div className="card-img-top" style={{ aspectRatio: '1/1', overflow: 'hidden' }}>
+                  <Image
+                    src="/assets/_845d11f3-6f93-45dc-85c9-f4a4469afe79.jpg"
+                    alt="Customer Support Platform"
+                    width={400}
+                    height={400}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body p-4">
                   <div className="badge bg-warning bg-gradient rounded-pill mb-2">SAAS</div>
                   <Link className="text-decoration-none link-dark stretched-link" href="/products/saas">
